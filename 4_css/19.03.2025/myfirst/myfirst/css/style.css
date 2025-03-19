@@ -1,0 +1,126 @@
+div{
+
+}
+
+span{
+    font-size: 30px;
+    color:red;
+}
+
+.asdf{
+    color:blue;
+}
+
+span.asdf{
+    font-style: italic;
+}
+
+
+/* Обнуление стилей */
+
+/* Общие настройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Сброс отступов и полей */
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Настройка шрифтов */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Сброс стилей ссылок */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Сброс стилей списков */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Сброс стилей таблиц */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Сброс стилей изображений */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Сброс стилей форм */
+  input, textarea, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Сброс стилей кнопок */
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Сброс стилей абзацев */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Сброс стилей заголовков */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+  }
+  
+  /* Сброс стилей контейнера */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Сброс стилей медиа-запросов */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
